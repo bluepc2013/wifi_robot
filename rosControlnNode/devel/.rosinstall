@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/blue/lab/wifi_robot/rosControlnNode/devel/setup.sh

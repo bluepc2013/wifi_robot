@@ -1,0 +1,59 @@
+/**
+ * File: protocol.h
+ * Brief:
+ * Created by: zhangping
+ * Created at: 2017.05.3
+ * Modified by:
+ * Modified at:
+ **/
+ 
+#ifndef _MY_PROTOCOL_H_
+#define _MY_PROTOCOL_H_
+
+enum Instruction{
+  kMoveStop = 0,
+  kMoveFoward,
+  kMoveBack,
+  kMoveLeft,
+  kMoveRight,
+  kSteerEngine7=9,
+  kSteerEngine8=10,
+  kLeftWheelMoveFoward,
+  kLeftWheelMoveBack,
+  kRightWheelMoveFoward,
+  kRightWheelMoveback,  
+};
+
+typedef char U8;
+
+/** Communication protocol format*/
+struct CommunicationProtocol{
+  U8 header;
+  U8 type;
+  U8 cmd;
+  U8 data;
+  U8 end;
+};
+
+/** Instruction data*/
+const struct CommunicationProtocol kComProtocol[]={
+  { 0xff,0x00,0x00,0x00,0xff}, //0, move stop
+  { 0xff,0x00,0x01,0x00,0xff}, //1, move foward
+  { 0xff,0x00,0x02,0x00,0xff}, //2, move back
+  { 0xff,0x00,0x03,0x00,0xff}, //3, move left
+  { 0xff,0x00,0x04,0x00,0xff}, //4, move right
+  { 0xff,0x00,0x05,0x00,0xff}, //5, move left-foward
+  { 0xff,0x00,0x06,0x00,0xff}, //6, move left-back
+  { 0xff,0x00,0x07,0x00,0xff}, //7, move right-foward
+  { 0xff,0x00,0x08,0x00,0xff}, //8, move right-back
+  { 0xff,0x01,0x07,0x00,0xff}, //9, 7th steering engine
+  { 0xff,0x01,0x08,0x00,0xff}, //10, 8th steering engine
+  { 0xff,0x66,0x00,0x00,0xff}, //11, move foward for left wheel engine
+  { 0xff,0x66,0x01,0x00,0xff}, //12, move back for left wheel engine
+  { 0xff,0x66,0x02,0x00,0xff}, //13, move foward for right wheel engine
+  { 0xff,0x66,0x03,0x00,0xff}, //14, move back for right wheel engine
+
+};
+
+#endif
+

@@ -1,0 +1,3 @@
+/home/blue/lab/wifi_robot/ex1/build/CMakeFiles/edit_cache.dir
+/home/blue/lab/wifi_robot/ex1/build/CMakeFiles/rebuild_cache.dir
+/home/blue/lab/wifi_robot/ex1/build/CMakeFiles/test_demo.dir

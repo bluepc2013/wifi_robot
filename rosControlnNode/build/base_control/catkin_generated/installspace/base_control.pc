@@ -1,0 +1,8 @@
+prefix=/home/blue/lab/wifi_robot/rosControlnNode/install
+
+Name: base_control
+Description: Description of base_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/blue/lab/wifi_robot/rosControlnNode/install/lib 
+Requires: 

@@ -1,0 +1,3 @@
+/home/blue/lab/wifi_robot/kinematics/build/CMakeFiles/edit_cache.dir
+/home/blue/lab/wifi_robot/kinematics/build/CMakeFiles/rebuild_cache.dir
+/home/blue/lab/wifi_robot/kinematics/build/CMakeFiles/test_demo.dir

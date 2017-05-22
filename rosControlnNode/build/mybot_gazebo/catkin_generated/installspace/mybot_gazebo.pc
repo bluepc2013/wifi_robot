@@ -1,0 +1,8 @@
+prefix=/home/blue/lab/wifi_robot/rosControlnNode/install
+
+Name: mybot_gazebo
+Description: Description of mybot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/blue/lab/wifi_robot/rosControlnNode/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/blue/lab/wifi_robot/robot_node/devel
+
+Name: robot_msgs
+Description: Description of robot_msgs
+Version: 0.0.0
+Cflags: -I/home/blue/lab/wifi_robot/robot_node/devel/include
+Libs: -L/home/blue/lab/wifi_robot/robot_node/devel/lib 
+Requires: message_runtime

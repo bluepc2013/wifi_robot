@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blue/lab/wifi_robot/wheelControl/test.cpp
+iostream
+-
+stdlib.h
+-
+string
+-
+wheelControl.h
+/home/blue/lab/wifi_robot/wheelControl/wheelControl.h
+
+/home/blue/lab/wifi_robot/wheelControl/wheelControl.cpp
+wheelControl.h
+/home/blue/lab/wifi_robot/wheelControl/wheelControl.h
+assert.h
+/home/blue/lab/wifi_robot/wheelControl/assert.h
+
+/home/blue/lab/wifi_robot/wheelControl/wheelControl.h
+

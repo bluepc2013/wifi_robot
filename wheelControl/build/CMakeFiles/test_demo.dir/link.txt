@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/test_demo.dir/test.o CMakeFiles/test_demo.dir/wheelControl.o  -o test_demo -rdynamic 

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blue/lab/wifi_robot/ex1/communication.cpp
+unistd.h
+-
+stdlib.h
+-
+iostream
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+protocol.h
+/home/blue/lab/wifi_robot/ex1/protocol.h
+communication.h
+/home/blue/lab/wifi_robot/ex1/communication.h
+
+/home/blue/lab/wifi_robot/ex1/communication.h
+string
+-
+
+/home/blue/lab/wifi_robot/ex1/protocol.h
+
+/home/blue/lab/wifi_robot/ex1/test.cpp
+iostream
+-
+unistd.h
+-
+string
+-
+protocol.h
+/home/blue/lab/wifi_robot/ex1/protocol.h
+communication.h
+/home/blue/lab/wifi_robot/ex1/communication.h
+

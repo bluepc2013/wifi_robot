@@ -1,0 +1,2 @@
+robot_msgs:robot_node
+-DCATKIN_DEVEL_PREFIX=/home/blue/lab/wifi_robot/robot_node/devel -DCMAKE_INSTALL_PREFIX=/home/blue/lab/wifi_robot/robot_node/install -G Unix Makefiles

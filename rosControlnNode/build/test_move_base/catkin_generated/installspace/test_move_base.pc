@@ -1,0 +1,8 @@
+prefix=/home/blue/lab/wifi_robot/rosControlnNode/install
+
+Name: test_move_base
+Description: Description of test_move_base
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/blue/lab/wifi_robot/rosControlnNode/install/lib 
+Requires: 

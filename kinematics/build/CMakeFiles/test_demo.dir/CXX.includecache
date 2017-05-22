@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blue/lab/wifi_robot/kinematics/kinematics.cpp
+kinematics.h
+/home/blue/lab/wifi_robot/kinematics/kinematics.h
+
+/home/blue/lab/wifi_robot/kinematics/kinematics.h
+
+/home/blue/lab/wifi_robot/kinematics/test.cpp
+iostream
+-
+stdlib.h
+-
+string
+-
+kinematics.h
+/home/blue/lab/wifi_robot/kinematics/kinematics.h
+
